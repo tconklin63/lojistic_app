@@ -33,6 +33,12 @@ ActiveRecord::Schema.define(version: 2019_01_26_002449) do
   end
 
   create_table "reports", force: :cascade do |t|
+    t.date "start_date"
+    t.date "end_date"
+    t.string "filepath"
+    t.boolean "deleted"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
