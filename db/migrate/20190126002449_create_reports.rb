@@ -4,6 +4,7 @@ class CreateReports < ActiveRecord::Migration[5.2]
       t.date :start_date
       t.date :end_date
       t.string :filepath
+      t.string :report_type
       t.boolean :deleted
 
       t.timestamps

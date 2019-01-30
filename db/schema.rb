@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 2019_01_26_002449) do
     t.date "start_date"
     t.date "end_date"
     t.string "filepath"
+    t.string "report_type"
     t.boolean "deleted"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
